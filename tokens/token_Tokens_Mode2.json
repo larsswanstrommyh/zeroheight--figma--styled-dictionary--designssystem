@@ -1,0 +1,140 @@
+{
+  "Color": {
+    "Background": {
+      "Neutral": {
+        "type": "color",
+        "value": "{Color.Neutral.0}"
+      },
+      "Primary": {
+        "type": "color",
+        "value": "{Color.Brand.Primary}"
+      },
+      "Secondary": {
+        "type": "color",
+        "value": "{Color.Brand.Secondary}"
+      }
+    },
+    "Brand": {
+      "Primary": {
+        "type": "color",
+        "value": "#2d2222"
+      },
+      "Secondary": {
+        "type": "color",
+        "value": "#861111"
+      }
+    },
+    "Neutral": {
+      "0": {
+        "type": "color",
+        "value": "#fff2f2"
+      },
+      "1000": {
+        "type": "color",
+        "value": "#222222"
+      },
+      "300": {
+        "type": "color",
+        "value": "#dbd2d2"
+      },
+      "500": {
+        "type": "color",
+        "value": "#ccc1c1"
+      }
+    },
+    "Surface": {
+      "Background": {
+        "type": "color",
+        "value": "{Color.Neutral.500}"
+      },
+      "Brand": {
+        "type": "color",
+        "value": "{Color.Brand.Secondary}"
+      },
+      "Primary": {
+        "type": "color",
+        "value": "{Color.Neutral.0}"
+      },
+      "Secondary": {
+        "type": "color",
+        "value": "{Color.Neutral.300}"
+      }
+    },
+    "Text": {
+      "Inverted": {
+        "type": "color",
+        "value": "{Color.Neutral.0}"
+      },
+      "Primary": {
+        "type": "color",
+        "value": "{Color.Neutral.1000}"
+      }
+    }
+  },
+  "Custom": {
+    "Annan bild": {
+      "type": "number",
+      "value": 100
+    },
+    "Bergsbild": {
+      "type": "number",
+      "value": 0
+    }
+  },
+  "Font": {
+    "Family": {
+      "Body": {
+        "type": "string",
+        "value": "Itim"
+      },
+      "Heading": {
+        "type": "string",
+        "value": "Limelight"
+      }
+    },
+    "Size": {
+      "Large": {
+        "type": "number",
+        "value": 26
+      },
+      "Medium": {
+        "type": "number",
+        "value": 18
+      },
+      "X-Large": {
+        "type": "number",
+        "value": 32
+      }
+    }
+  },
+  "Spacing": {
+    "Large": {
+      "type": "number",
+      "value": 18
+    },
+    "Medium": {
+      "type": "number",
+      "value": 12
+    },
+    "Small": {
+      "type": "number",
+      "value": 6
+    },
+    "X-Large": {
+      "type": "number",
+      "value": 24
+    },
+    "X-Small": {
+      "type": "number",
+      "value": 2
+    },
+    "XX-Large": {
+      "type": "number",
+      "value": 36
+    },
+    "XXX-Large": {
+      "type": "number",
+      "value": 48
+    }
+  }
+}
