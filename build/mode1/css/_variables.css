@@ -1,0 +1,35 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --myh-color-background-neutral: #ffffff;
+  --myh-color-background-primary: #191f3e;
+  --myh-color-background-secondary: #b7a4c5;
+  --myh-color-brand-primary: #191f3e;
+  --myh-color-brand-secondary: #b7a4c5;
+  --myh-color-neutral-0: #ffffff;
+  --myh-color-neutral-300: #ececec;
+  --myh-color-neutral-500: #d6d6d6;
+  --myh-color-neutral-1000: #222222;
+  --myh-color-surface-background: #d6d6d6;
+  --myh-color-surface-brand: #b7a4c5;
+  --myh-color-surface-primary: #ffffff;
+  --myh-color-surface-secondary: #ececec;
+  --myh-color-text-inverted: #ffffff;
+  --myh-color-text-primary: #222222;
+  --myh-custom-annan-bild: 0;
+  --myh-custom-bergsbild: 100;
+  --myh-font-family-body: Inter;
+  --myh-font-family-heading: Inter;
+  --myh-font-size-large: 24;
+  --myh-font-size-medium: 16;
+  --myh-font-size-x-large: 32;
+  --myh-spacing-large: 24;
+  --myh-spacing-medium: 16;
+  --myh-spacing-small: 8;
+  --myh-spacing-x-large: 32;
+  --myh-spacing-x-small: 4;
+  --myh-spacing-xx-large: 48;
+  --myh-spacing-xxx-large: 64;
+}

@@ -1,0 +1,5 @@
+@use "../build/variables" as variables;
+
+* {
+    background-color: variables.$myh-color-background-primary;
+}
