@@ -1,0 +1,21 @@
+@use "../../../build/variables" as variables;
+
+.button {
+  padding: variables.$myh-spacing-small variables.$myh-spacing-x-large;
+  background-color: variables.$myh-color-background-neutral;
+  color: variables.$myh-color-text-primary;
+  font-size: variables.$myh-font-size-medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+
+  &.feature {
+    background-color: variables.$myh-color-background-primary;
+    color: variables.$myh-color-text-inverted;
+    font-size: variables.$myh-font-size-large;
+    font-weight: normal;
+  }
+}

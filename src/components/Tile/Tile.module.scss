@@ -1,0 +1,23 @@
+@use "../../../build/variables" as variables;
+
+.tile {
+  padding: variables.$myh-spacing-x-large variables.$myh-spacing-x-large;
+  background-color: variables.$myh-color-background-neutral;
+  display: flex;
+  flex-direction: column;
+  gap: variables.$myh-spacing-medium;
+  border-bottom: variables.$myh-color-brand-secondary 10px solid;
+
+  .title {
+    font-size: variables.$myh-font-size-large;
+    font-weight: normal;
+  }
+
+  .ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    margin-left: auto;
+    background-color: variables.$myh-color-brand-secondary;
+  }
+}

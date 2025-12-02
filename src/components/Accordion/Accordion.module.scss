@@ -1,0 +1,48 @@
+@use "../../../build/variables" as variables;
+
+.accordion {
+  padding: variables.$myh-spacing-large 0 variables.$myh-spacing-large 0;
+  background-color: variables.$myh-color-background-neutral;
+  display: flex;
+  flex-direction: column;
+  gap: variables.$myh-spacing-x-large;
+  border-bottom: variables.$myh-color-brand-secondary 10px solid;
+  max-width: 800px;
+
+  .titleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 variables.$myh-spacing-large;
+
+    .title {
+      font-size: variables.$myh-font-size-large;
+      font-weight: normal;
+    }
+
+    .ball {
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      margin-left: auto;
+      background-color: variables.$myh-color-brand-secondary;
+    }
+  }
+
+  .content {
+    font-size: variables.$myh-font-size-medium;
+    padding: variables.$myh-spacing-medium variables.$myh-spacing-large 0
+      variables.$myh-spacing-large;
+    background-color: variables.$myh-color-surface-secondary;
+
+    margin-bottom: calc(variables.$myh-spacing-large * -1);
+
+    &:empty {
+      display: none;
+    }
+
+    p {
+      margin-bottom: variables.$myh-spacing-large;
+    }
+  }
+}

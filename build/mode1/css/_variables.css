@@ -4,9 +4,9 @@
 
 :root {
   --myh-color-background-neutral: #ffffff;
-  --myh-color-background-primary: #191f3e;
+  --myh-color-background-primary: #071764;
   --myh-color-background-secondary: #b7a4c5;
-  --myh-color-brand-primary: #191f3e;
+  --myh-color-brand-primary: #071764;
   --myh-color-brand-secondary: #b7a4c5;
   --myh-color-neutral-0: #ffffff;
   --myh-color-neutral-300: #ececec;
@@ -18,18 +18,18 @@
   --myh-color-surface-secondary: #ececec;
   --myh-color-text-inverted: #ffffff;
   --myh-color-text-primary: #222222;
-  --myh-custom-annan-bild: 0;
-  --myh-custom-bergsbild: 100;
+  --myh-custom-annan-bild: 0px;
+  --myh-custom-bergsbild: 100px;
   --myh-font-family-body: Inter;
   --myh-font-family-heading: Inter;
-  --myh-font-size-large: 24;
-  --myh-font-size-medium: 16;
-  --myh-font-size-x-large: 32;
-  --myh-spacing-large: 24;
-  --myh-spacing-medium: 16;
-  --myh-spacing-small: 8;
-  --myh-spacing-x-large: 32;
-  --myh-spacing-x-small: 4;
-  --myh-spacing-xx-large: 48;
-  --myh-spacing-xxx-large: 64;
+  --myh-font-size-large: 24px;
+  --myh-font-size-medium: 16px;
+  --myh-font-size-x-large: 32px;
+  --myh-spacing-large: 24px;
+  --myh-spacing-medium: 16px;
+  --myh-spacing-small: 8px;
+  --myh-spacing-x-large: 32px;
+  --myh-spacing-x-small: 4px;
+  --myh-spacing-xx-large: 48px;
+  --myh-spacing-xxx-large: 64px;
 }

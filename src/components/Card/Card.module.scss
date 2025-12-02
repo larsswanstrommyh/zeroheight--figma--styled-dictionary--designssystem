@@ -1,0 +1,18 @@
+@use "../../../build/variables" as variables;
+
+.card {
+  padding: variables.$myh-spacing-xx-large variables.$myh-spacing-xxx-large;
+  background-color: variables.$myh-color-background-neutral;
+  display: flex;
+  flex-direction: column;
+  gap: variables.$myh-spacing-medium;
+  border-bottom: variables.$myh-color-brand-secondary 10px solid;
+
+  .title {
+    font-size: variables.$myh-font-size-x-large;
+  }
+
+  .preamble {
+    font-size: variables.$myh-font-size-medium;
+  }
+}

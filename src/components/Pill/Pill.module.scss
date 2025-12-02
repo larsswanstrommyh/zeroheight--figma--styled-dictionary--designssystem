@@ -1,0 +1,13 @@
+@use "../../../build/variables" as variables;
+
+.pill {
+  display: block;
+  width: fit-content;
+  text-transform: uppercase;
+  padding: variables.$myh-spacing-x-small variables.$myh-spacing-medium;
+  border-radius: 999px;
+  background-color: variables.$myh-color-background-secondary;
+  color: variables.$myh-color-text-inverted;
+  font-size: variables.$myh-font-size-medium;
+  font-style: italic;
+}

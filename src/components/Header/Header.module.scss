@@ -1,0 +1,29 @@
+@use "../../../build/variables" as variables;
+
+.header {
+  background-color: variables.$myh-color-background-primary;
+  padding: variables.$myh-spacing-xx-large variables.$myh-spacing-xxx-large;
+  max-width: 100%;
+  display: flex;
+
+  color: variables.$myh-color-text-inverted;
+
+  .logotype {
+    font-size: variables.$myh-font-size-large;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  ul.links {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+
+    li {
+      list-style-type: none;
+      font-size: variables.$myh-font-size-large;
+    }
+  }
+}
