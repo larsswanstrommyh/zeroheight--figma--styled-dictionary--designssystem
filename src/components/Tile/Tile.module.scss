@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: variables.$myh-spacing-medium;
   border-bottom: variables.$myh-color-brand-secondary 10px solid;
+  color: variables.$myh-color-text-primary;
 
   .title {
     font-size: variables.$myh-font-size-large;

@@ -27,8 +27,11 @@ html {
 }
 
 #root {
-  margin: 0 auto;
+  margin: 2rem;
   display: grid;
+  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
 }
 
 a {
